@@ -1,0 +1,59 @@
+
+{
+  "navigation": {
+    "home": "Accueil",
+    "languages": "Langues",
+    "sessions": "Sessions en Direct",
+    "about": "À Propos",
+    "contact": "Contact",
+    "faqs": "FAQ",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "dashboard": "Tableau de Bord",
+    "programs": "Programmes",
+    "quizzes": "Quiz",
+    "profile": "Profil",
+    "schedule": "Horaire",
+    "results": "Résultats",
+    "users": "Utilisateurs",
+    "settings": "Paramètres",
+    "reports": "Rapports"
+  },
+  "buttons": {
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "update": "Mettre à Jour",
+    "submit": "Soumettre",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "confirm": "Confirmer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "clear": "Effacer",
+    "join": "Rejoindre",
+    "view": "Voir"
+  },
+  "status": {
+    "active": "Actif",
+    "inactive": "Inactif",
+    "pending": "En Attente",
+    "completed": "Terminé",
+    "enrolled": "Inscrit",
+    "available": "Disponible"
+  },
+  "roles": {
+    "student": "Étudiant",
+    "teacher": "Professeur",
+    "admin": "Administrateur"
+  },
+  "levels": {
+    "beginner": "Débutant",
+    "intermediate": "Intermédiaire",
+    "advanced": "Avancé"
+  }
+}

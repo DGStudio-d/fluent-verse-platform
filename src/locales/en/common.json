@@ -1,0 +1,59 @@
+
+{
+  "navigation": {
+    "home": "Home",
+    "languages": "Languages",
+    "sessions": "Live Sessions",
+    "about": "About",
+    "contact": "Contact",
+    "faqs": "FAQs",
+    "login": "Login",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "programs": "Programs",
+    "quizzes": "Quizzes",
+    "profile": "Profile",
+    "schedule": "Schedule",
+    "results": "Results",
+    "users": "Users",
+    "settings": "Settings",
+    "reports": "Reports"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "submit": "Submit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "join": "Join",
+    "view": "View"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "completed": "Completed",
+    "enrolled": "Enrolled",
+    "available": "Available"
+  },
+  "roles": {
+    "student": "Student",
+    "teacher": "Teacher",
+    "admin": "Admin"
+  },
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  }
+}

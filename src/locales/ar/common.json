@@ -1,0 +1,59 @@
+
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "languages": "اللغات",
+    "sessions": "الجلسات المباشرة",
+    "about": "حولنا",
+    "contact": "اتصل بنا",
+    "faqs": "الأسئلة الشائعة",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "dashboard": "لوحة التحكم",
+    "programs": "البرامج",
+    "quizzes": "الاختبارات",
+    "profile": "الملف الشخصي",
+    "schedule": "الجدول",
+    "results": "النتائج",
+    "users": "المستخدمون",
+    "settings": "الإعدادات",
+    "reports": "التقارير"
+  },
+  "buttons": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "confirm": "تأكيد",
+    "search": "بحث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "join": "انضمام",
+    "view": "عرض"
+  },
+  "status": {
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "pending": "معلق",
+    "completed": "مكتمل",
+    "enrolled": "مسجل",
+    "available": "متاح"
+  },
+  "roles": {
+    "student": "طالب",
+    "teacher": "معلم",
+    "admin": "مدير"
+  },
+  "levels": {
+    "beginner": "مبتدئ",
+    "intermediate": "متوسط",
+    "advanced": "متقدم"
+  }
+}

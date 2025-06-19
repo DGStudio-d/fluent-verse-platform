@@ -1,0 +1,38 @@
+
+{
+  "title": "Sesiones de Idiomas en Vivo",
+  "subtitle": "Únete a sesiones interactivas en vivo con hablantes nativos y profesores expertos de todo el mundo",
+  "featured": "Destacado",
+  "searchPlaceholder": "Buscar sesiones o profesores...",
+  "filters": {
+    "allLanguages": "Todos los Idiomas",
+    "allLevels": "Todos los Niveles"
+  },
+  "details": {
+    "duration": "Duración",
+    "participants": "participantes",
+    "spotsLeft": "lugares disponibles",
+    "availability": "Disponibilidad",
+    "sessionTopics": "Temas de la Sesión:",
+    "joinSession": "Unirse a la Sesión",
+    "details": "Detalles",
+    "full": "Completo"
+  },
+  "noSessions": {
+    "title": "No se encontraron sesiones",
+    "description": "Intenta ajustar tus criterios de búsqueda o filtro"
+  },
+  "cta": {
+    "title": "¿Quieres Enseñar una Sesión?",
+    "description": "Comparte tu experiencia en idiomas con nuestra comunidad global de estudiantes.",
+    "button": "Conviértete en Profesor"
+  },
+  "languages": {
+    "English": "Inglés",
+    "Spanish": "Español",
+    "French": "Francés",
+    "Arabic": "Árabe",
+    "German": "Alemán",
+    "Mandarin": "Mandarín"
+  }
+}

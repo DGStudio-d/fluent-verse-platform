@@ -1,0 +1,38 @@
+
+{
+  "title": "Live Language Sessions",
+  "subtitle": "Join interactive live sessions with native speakers and expert teachers from around the world",
+  "featured": "Featured",
+  "searchPlaceholder": "Search sessions or teachers...",
+  "filters": {
+    "allLanguages": "All Languages",
+    "allLevels": "All Levels"
+  },
+  "details": {
+    "duration": "Duration",
+    "participants": "participants",
+    "spotsLeft": "spots left",
+    "availability": "Availability",
+    "sessionTopics": "Session Topics:",
+    "joinSession": "Join Session",
+    "details": "Details",
+    "full": "Full"
+  },
+  "noSessions": {
+    "title": "No sessions found",
+    "description": "Try adjusting your search or filter criteria"
+  },
+  "cta": {
+    "title": "Want to Teach a Session?",
+    "description": "Share your language expertise with our global community of learners.",
+    "button": "Become a Teacher"
+  },
+  "languages": {
+    "English": "English",
+    "Spanish": "Spanish",
+    "French": "French",
+    "Arabic": "Arabic",
+    "German": "German",
+    "Mandarin": "Mandarin"
+  }
+}

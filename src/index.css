@@ -1,97 +1,65 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+/* Green color scheme overrides */
+:root {
+  --primary-green: #10B981;
+  --primary-green-dark: #059669;
+  --primary-green-light: #D1FAE5;
+  --secondary-green: #34D399;
+}
 
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+}
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+[dir="rtl"] .flex {
+  flex-direction: row-reverse;
+}
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+[dir="rtl"] .space-x-2 > * + * {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
 
-    --primary: 160 84% 39%; /* emerald-600 */
-    --primary-foreground: 0 0% 98%;
+[dir="rtl"] .space-x-4 > * + * {
+  margin-left: 0;
+  margin-right: 1rem;
+}
 
-    --secondary: 158 64% 52%; /* emerald-500 */
-    --secondary-foreground: 0 0% 98%;
+[dir="rtl"] .ml-2 {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
 
-    --muted: 156 39% 94%; /* emerald-50 */
-    --muted-foreground: 160 34% 25%; /* emerald-800 */
+[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
 
-    --accent: 158 58% 70%; /* emerald-400 */
-    --accent-foreground: 160 84% 12%; /* emerald-900 */
+[dir="rtl"] .pl-10 {
+  padding-left: 0;
+  padding-right: 2.5rem;
+}
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+[dir="rtl"] .absolute.left-3 {
+  left: auto;
+  right: 0.75rem;
+}
 
-    --border: 156 39% 89%; /* emerald-100 */
-    --input: 156 39% 89%;
-    --ring: 160 84% 39%; /* emerald-600 */
-
-    --radius: 0.5rem;
-
-    --sidebar-background: 156 39% 96%; /* emerald-25 */
-    --sidebar-foreground: 160 34% 25%;
-    --sidebar-primary: 160 84% 39%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 156 39% 91%;
-    --sidebar-accent-foreground: 160 84% 12%;
-    --sidebar-border: 156 39% 89%;
-    --sidebar-ring: 160 84% 39%;
-  }
-
-  .dark {
-    --background: 160 84% 5%; /* emerald-950 */
-    --foreground: 156 39% 94%;
-
-    --card: 160 84% 8%;
-    --card-foreground: 156 39% 94%;
-
-    --popover: 160 84% 8%;
-    --popover-foreground: 156 39% 94%;
-
-    --primary: 158 64% 52%; /* emerald-500 */
-    --primary-foreground: 160 84% 5%;
-
-    --secondary: 160 84% 15%;
-    --secondary-foreground: 156 39% 94%;
-
-    --muted: 160 84% 12%;
-    --muted-foreground: 158 58% 70%;
-
-    --accent: 160 84% 15%;
-    --accent-foreground: 156 39% 94%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 160 84% 15%;
-    --input: 160 84% 15%;
-    --ring: 158 64% 52%;
-    
-    --sidebar-background: 160 84% 8%;
-    --sidebar-foreground: 156 39% 94%;
-    --sidebar-primary: 158 64% 52%;
-    --sidebar-primary-foreground: 160 84% 5%;
-    --sidebar-accent: 160 84% 12%;
-    --sidebar-accent-foreground: 156 39% 94%;
-    --sidebar-border: 160 84% 15%;
-    --sidebar-ring: 158 64% 52%;
-  }
+/* Arabic font support */
+[dir="rtl"] {
+  font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
 }
 
 @layer base {
   * {
     @apply border-border;
   }
-
   body {
     @apply bg-background text-foreground;
   }

@@ -1,0 +1,38 @@
+
+{
+  "title": "Sessions de Langues en Direct",
+  "subtitle": "Rejoignez des sessions interactives en direct avec des locuteurs natifs et des professeurs experts du monde entier",
+  "featured": "Vedette",
+  "searchPlaceholder": "Rechercher des sessions ou des professeurs...",
+  "filters": {
+    "allLanguages": "Toutes les Langues",
+    "allLevels": "Tous les Niveaux"
+  },
+  "details": {
+    "duration": "Durée",
+    "participants": "participants",
+    "spotsLeft": "places disponibles",
+    "availability": "Disponibilité",
+    "sessionTopics": "Sujets de la Session :",
+    "joinSession": "Rejoindre la Session",
+    "details": "Détails",
+    "full": "Complet"
+  },
+  "noSessions": {
+    "title": "Aucune session trouvée",
+    "description": "Essayez d'ajuster vos critères de recherche ou de filtre"
+  },
+  "cta": {
+    "title": "Vous Voulez Enseigner une Session ?",
+    "description": "Partagez votre expertise linguistique avec notre communauté mondiale d'apprenants.",
+    "button": "Devenir Professeur"
+  },
+  "languages": {
+    "English": "Anglais",
+    "Spanish": "Espagnol",
+    "French": "Français",
+    "Arabic": "Arabe",
+    "German": "Allemand",
+    "Mandarin": "Mandarin"
+  }
+}

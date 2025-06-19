@@ -1,0 +1,59 @@
+
+{
+  "navigation": {
+    "home": "Inicio",
+    "languages": "Idiomas",
+    "sessions": "Sesiones en Vivo",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "faqs": "Preguntas Frecuentes",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "dashboard": "Panel",
+    "programs": "Programas",
+    "quizzes": "Cuestionarios",
+    "profile": "Perfil",
+    "schedule": "Horario",
+    "results": "Resultados",
+    "users": "Usuarios",
+    "settings": "Configuración",
+    "reports": "Reportes"
+  },
+  "buttons": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "submit": "Enviar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "confirm": "Confirmar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "clear": "Limpiar",
+    "join": "Unirse",
+    "view": "Ver"
+  },
+  "status": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "pending": "Pendiente",
+    "completed": "Completado",
+    "enrolled": "Inscrito",
+    "available": "Disponible"
+  },
+  "roles": {
+    "student": "Estudiante",
+    "teacher": "Profesor",
+    "admin": "Administrador"
+  },
+  "levels": {
+    "beginner": "Principiante",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzado"
+  }
+}
