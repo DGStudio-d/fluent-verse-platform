@@ -135,7 +135,7 @@ const Sessions = () => {
   const getLevelColor = (level: string) => {
     switch (level.toLowerCase()) {
       case 'beginner':
-        return 'bg-emerald-100 text-emerald-700 hover:bg-emerald-100';
+        return 'bg-green-100 text-green-700 hover:bg-green-100';
       case 'intermediate':
         return 'bg-yellow-100 text-yellow-700 hover:bg-yellow-100';
       case 'advanced':
@@ -148,7 +148,7 @@ const Sessions = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header Section */}
-      <section className="bg-gradient-to-r from-emerald-600 to-green-600 text-white py-16">
+      <section className="bg-gradient-to-r from-primary-green to-primary-green-dark text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex justify-center mb-6">
@@ -157,7 +157,7 @@ const Sessions = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               {t('sessions:title')}
             </h1>
-            <p className="text-xl text-emerald-100 max-w-3xl mx-auto">
+            <p className="text-xl text-green-100 max-w-3xl mx-auto">
               {t('sessions:subtitle')}
             </p>
           </div>
@@ -216,13 +216,13 @@ const Sessions = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8">
             {filteredSessions.map((session) => (
-              <Card key={session.id} className={`overflow-hidden hover:shadow-xl transition-all duration-300 group ${session.featured ? 'ring-2 ring-emerald-200' : ''}`}>
+              <Card key={session.id} className={`overflow-hidden hover:shadow-xl transition-all duration-300 group ${session.featured ? 'ring-2 ring-primary-green/20' : ''}`}>
                 <CardHeader className="relative">
                   <div className="flex items-start justify-between mb-2">
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-2">
                         {session.featured && (
-                          <Badge className="bg-emerald-100 text-emerald-700 hover:bg-emerald-100">
+                          <Badge className="bg-primary-green/10 text-primary-green hover:bg-primary-green/10">
                             {t('sessions:featured')}
                           </Badge>
                         )}
@@ -236,7 +236,7 @@ const Sessions = () => {
                       </CardDescription>
                     </div>
                     <div className="text-right">
-                      <div className="text-2xl font-bold text-emerald-600">{session.price}</div>
+                      <div className="text-2xl font-bold text-primary-green">{session.price}</div>
                     </div>
                   </div>
                 </CardHeader>
@@ -246,15 +246,15 @@ const Sessions = () => {
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-3">
                       <div className="flex items-center gap-2 text-sm text-gray-600">
-                        <Globe className="w-4 h-4 text-emerald-600" />
+                        <Globe className="w-4 h-4 text-primary-green" />
                         <span className="font-medium">{t(`sessions:languages.${session.language}`)}</span>
                       </div>
                       <div className="flex items-center gap-2 text-sm text-gray-600">
-                        <User className="w-4 h-4 text-green-600" />
+                        <User className="w-4 h-4 text-primary-green-dark" />
                         <span>{session.teacher}</span>
                       </div>
                       <div className="flex items-center gap-2 text-sm text-gray-600">
-                        <Clock className="w-4 h-4 text-purple-600" />
+                        <Clock className="w-4 h-4 text-secondary-green" />
                         <span>{session.duration}</span>
                       </div>
                     </div>
@@ -296,7 +296,7 @@ const Sessions = () => {
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2">
                       <div 
-                        className="bg-gradient-to-r from-emerald-600 to-green-600 h-2 rounded-full transition-all duration-300"
+                        className="bg-gradient-to-r from-primary-green to-primary-green-dark h-2 rounded-full transition-all duration-300"
                         style={{ width: `${(session.participants / session.maxParticipants) * 100}%` }}
                       ></div>
                     </div>
@@ -305,7 +305,7 @@ const Sessions = () => {
                   {/* Action Buttons */}
                   <div className="flex gap-3 pt-2">
                     <Button 
-                      className="flex-1 bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700"
+                      className="flex-1 bg-gradient-to-r from-primary-green to-primary-green-dark hover:from-primary-green-dark hover:to-dark-green"
                       disabled={session.participants >= session.maxParticipants}
                     >
                       <Video className="w-4 h-4 mr-2" />
@@ -331,15 +331,15 @@ const Sessions = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-emerald-600 to-green-600">
+      <section className="py-16 bg-gradient-to-r from-primary-green to-primary-green-dark">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             {t('sessions:cta.title')}
           </h2>
-          <p className="text-xl text-emerald-100 mb-8">
+          <p className="text-xl text-green-100 mb-8">
             {t('sessions:cta.description')}
           </p>
-          <Button size="lg" className="bg-white text-emerald-600 hover:bg-gray-100">
+          <Button size="lg" className="bg-white text-primary-green hover:bg-gray-100">
             {t('sessions:cta.button')}
           </Button>
         </div>

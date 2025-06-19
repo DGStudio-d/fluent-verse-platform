@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
@@ -37,10 +36,10 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-r from-primary-green to-primary-green-dark rounded-lg flex items-center justify-center">
                 <BookOpen className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <span className="text-xl font-bold bg-gradient-to-r from-primary-green to-primary-green-dark bg-clip-text text-transparent">
                 LinguaLearn
               </span>
             </Link>
@@ -52,7 +51,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 {item.name}
               </Link>
@@ -61,7 +60,7 @@ const Navbar = () => {
             {isAuthenticated && (
               <Link
                 to={getDashboardRoute()}
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 Dashboard
               </Link>
@@ -75,7 +74,7 @@ const Navbar = () => {
                 <Button variant="ghost" asChild>
                   <Link to="/login">Sign In</Link>
                 </Button>
-                <Button asChild>
+                <Button asChild className="bg-gradient-to-r from-primary-green to-primary-green-dark hover:from-primary-green-dark hover:to-dark-green">
                   <Link to="/register">Get Started</Link>
                 </Button>
               </div>
@@ -84,7 +83,7 @@ const Navbar = () => {
                 <DropdownMenuTrigger asChild>
                   <Button variant="ghost" className="relative h-8 w-8 rounded-full">
                     <Avatar className="h-8 w-8">
-                      <AvatarFallback className="bg-blue-600 text-white">
+                      <AvatarFallback className="bg-primary-green text-white">
                         {user.name.split(' ').map(n => n[0]).join('').toUpperCase()}
                       </AvatarFallback>
                     </Avatar>
@@ -97,7 +96,7 @@ const Navbar = () => {
                       <p className="w-[200px] truncate text-sm text-muted-foreground">
                         {user.email}
                       </p>
-                      <p className="text-xs text-blue-600 capitalize">{user.role}</p>
+                      <p className="text-xs text-primary-green capitalize">{user.role}</p>
                     </div>
                   </div>
                   <DropdownMenuSeparator />
@@ -142,7 +141,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   to={item.path}
-                  className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-700 hover:text-primary-green block px-3 py-2 rounded-md text-base font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
@@ -152,7 +151,7 @@ const Navbar = () => {
               {isAuthenticated && (
                 <Link
                   to={getDashboardRoute()}
-                  className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-700 hover:text-primary-green block px-3 py-2 rounded-md text-base font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Dashboard
@@ -165,7 +164,7 @@ const Navbar = () => {
                     <Button variant="ghost" asChild className="flex-1">
                       <Link to="/login" onClick={() => setIsMobileMenuOpen(false)}>Sign In</Link>
                     </Button>
-                    <Button asChild className="flex-1">
+                    <Button asChild className="flex-1 bg-gradient-to-r from-primary-green to-primary-green-dark hover:from-primary-green-dark hover:to-dark-green">
                       <Link to="/register" onClick={() => setIsMobileMenuOpen(false)}>Get Started</Link>
                     </Button>
                   </div>
